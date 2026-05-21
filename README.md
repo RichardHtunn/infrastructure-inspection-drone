@@ -27,13 +27,14 @@ To run the detection script on your local machine, you will need:
 ## 🚀 How to Run
 1. **Hardware Setup:** Power on the drone and ensure the ESP32 payload is booted and broadcasting the camera web server.
 2. **Network Connection:** Connect your local machine to the ESP32's Wi-Fi network (or ensure both are on the same local network).
-3. **Execution:** ```bash
+3. **Execution:**
+```bash
    # Clone the repository
    git clone [https://github.com/RichardHtunn/infrastructure-inspection-drone.git](https://github.com/RichardHtunn/infrastructure-inspection-drone.git)
    
    # Navigate to the directory
    cd infrastructure-inspection-drone
-   
+
    cd src
    
    # Run the detection script
