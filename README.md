@@ -33,6 +33,7 @@ To run the detection script on your local machine, you will need:
    
    # Navigate to the directory
    cd infrastructure-inspection-drone
+   
    cd src
    
    # Run the detection script
