@@ -5,8 +5,8 @@
 This repository contains the software and hardware documentation for a custom vision system. Developed for a physics and embedded systems laboratory project at KMITL, the system utilizes an ESP32 to capture and transmit visual data from the drone to a local machine, where computer vision algorithms identify structural damage.
 
 ## 📸 Project Showcase
-> **Note:** [Replace this text with a photo of the ESP32 mounted on your drone]
-> **Note:** [Replace this text with a screenshot showing the crack detection output on your computer]
+
+
 
 ## 🛠️ System Architecture
 The project utilizes a "Payload & Carrier" architecture, separating the flight dynamics from the data processing:
@@ -16,7 +16,7 @@ The project utilizes a "Payload & Carrier" architecture, separating the flight d
 *(See `BOM.md` for the payload components and `wiring.md` for the power integration).*
 
 ## 💻 Software & Computer Vision
-The main detection logic is housed in `crack_detection.py`. The system processes the visual feed transmitted from the ESP32 payload, utilizing computer vision to highlight structural anomalies in real-time.
+The main detection logic is housed in `src/crack_detection.py`. The system processes the visual feed transmitted from the ESP32 payload, utilizing computer vision to highlight structural anomalies in real-time.
 
 ### Prerequisites
 To run the detection script on your local machine, you will need:
@@ -34,7 +34,6 @@ To run the detection script on your local machine, you will need:
    
    # Navigate to the directory
    cd infrastructure-inspection-drone
-
    cd src
    
    # Run the detection script
