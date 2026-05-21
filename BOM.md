@@ -1,7 +1,3 @@
-### 2. Updated `BOM.md` (Bill of Materials)
-This now focuses strictly on what you added, acknowledging the drone as a single component.
-
-```markdown
 # Bill of Materials (BOM)
 
 This document outlines the hardware components used for the custom vision payload and the carrier platform.
